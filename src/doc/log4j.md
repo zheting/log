@@ -18,4 +18,4 @@ root logger可以用Logger.getRootLogger()方法获取。
 Appender 用来指定日志的输出目的地。Log4j 常用的输出目的地
 有以下几种：
 
-![appenders](images/appenders.png "appenders.png")
+![appenders](https://github.com/zheting/log/blob/main/src/doc/images/appenders.png "appenders.png")
