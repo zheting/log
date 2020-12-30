@@ -138,7 +138,7 @@ public class JULTest {
         logger.finest("finest");
 
         System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-        
+
         Logger logger2 = Logger.getLogger("cn.java");
         logger2.severe("severe test");
         logger2.warning("warning test");
