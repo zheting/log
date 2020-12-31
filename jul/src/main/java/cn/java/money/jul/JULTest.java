@@ -5,6 +5,11 @@ import org.junit.jupiter.api.Test;
 import java.io.InputStream;
 import java.util.logging.*;
 
+/**
+ * JUL: java.util.logging
+ * JDK1.4 增加的日志记录
+ */
+
 public class JULTest {
 
     @Test
