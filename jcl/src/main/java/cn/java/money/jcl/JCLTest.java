@@ -4,6 +4,11 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.junit.jupiter.api.Test;
 
+/**
+ *  JCL: Java Common Log
+ *  http://commons.apache.org/proper/commons-logging/
+ *
+ */
 public class JCLTest {
 
     @Test
