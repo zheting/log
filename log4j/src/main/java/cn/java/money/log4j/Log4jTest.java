@@ -39,7 +39,7 @@ public class Log4jTest {
     }
 
     @Test
-    public void testCustomLogger() throws Exception {
+    public void testCustomLogger() {
         // 自定义 com.itheima
         Logger logger1 = Logger.getLogger(Log4jTest.class);
         logger1.fatal("fatal");
