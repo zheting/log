@@ -37,4 +37,26 @@ public class Log4jTest {
             logger.info("寒蝉凄切，对长亭晚，骤雨初歇。都门帐饮无绪，留恋处，兰舟催发。执手相看泪眼，竟无语凝噎。念去去，千里烟波，暮霭沉沉楚天阔。多情自古伤离别，更那堪，冷落清秋节！今宵酒醒何处？杨柳岸，晓风残月。此去经年，应是良辰好景虚设。便纵有千种风情，更与何人说？");
         }*/
     }
+
+    @Test
+    public void testCustomLogger() throws Exception {
+        // 自定义 com.itheima
+        Logger logger1 = Logger.getLogger(Log4jTest.class);
+        logger1.fatal("fatal");
+        logger1.error("error");
+        logger1.warn("warn");
+        logger1.info("info");
+        logger1.debug("debug");
+        logger1.trace("trace");
+
+        // 自定义 org.apache
+        Logger logger2 = Logger.getLogger(Logger.class);
+        logger2.fatal("fatal logger2");
+        logger2.error("error logger2");
+        logger2.warn("warn logger2");
+        logger2.info("info logger2");
+        logger2.debug("debug logger2");
+        logger2.trace("trace logger2");
+    }
+
 }
