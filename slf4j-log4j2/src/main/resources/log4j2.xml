@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Configuration status="warn" monitorInterval="5">
+    <properties>
+        <property name="LOG_HOME">D:/logs</property>
+    </properties>
+
+    <Appenders>
+        <!-- 输出到控制台 -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] [%-5level] %c{36}:%L - -- %m%n"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <!-- 使用Rootlogger-->
+        <Root level="trace">
+            <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+</Configuration>
