@@ -1,4 +1,5 @@
 # log
+视频地址：https://www.bilibili.com/video/BV1iJ411H74S
 ## 官网url
 * JUL: JDK
 * JCL: http://commons.apache.org/proper/commons-logging/
